@@ -15,7 +15,7 @@
     "react",
     "webpack"
   ],
-  "author": "yixuan",
+  "author": "LittleMice",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^5.8.25",
