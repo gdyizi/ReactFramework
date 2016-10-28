@@ -1,7 +1,10 @@
 var webpack = require('webpack');
 module.exports = {
     entry: [
-      'webpack/hot/only-dev-server',
+          'webpack/hot/only-dev-server',
+      'webpack/hot/dev-server',
+
+    'webpack-dev-server/client?http://localhost:8080',
       "./js/app.js"
     ],
     output: {

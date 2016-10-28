@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 let Hello = React.createClass({
   render(){
     return (
-      <div>Hello Worffdfsdfdsdfdsfsld!</div>
+      <div>Hello!</div>
     );
   }
 });
