@@ -1,5 +1,6 @@
 /*Hello World!*/
 import React from 'react';
+import ReactDom from 'react-dom';
 import Hello from './hello.js';
 
 let App = React.createClass({
@@ -10,7 +11,7 @@ let App = React.createClass({
   }
 });
 
-React.render(
+ReactDom.render(
   <App />,
   document.body
   )
